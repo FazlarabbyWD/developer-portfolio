@@ -3,14 +3,18 @@ body{
     margin: 0;
 
 }
+p{
+    text-align: justify;
+}
 h1{
     font-size: 45px;
 }
 .orange-clr{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
@@ -19,7 +23,7 @@ section{
 .half-width img{
     width: 80%;
 }
-.hire-me{
+.button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     padding: 10px 40px;
@@ -28,7 +32,36 @@ section{
     font-weight: 700;
 }
 
-#first-section{
+.first-section{
     background-image: url('../images/TO.png');
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sec-exp{
+    width: 50%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 10px; 
+}
+
+.exp{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+border-left: 8px solid tomato;
+}
+#baby{
+border-left: 8px solid blue;
+}
+footer p{
+    text-align: center;
 }
